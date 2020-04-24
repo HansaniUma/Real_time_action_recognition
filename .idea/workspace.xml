@@ -2,11 +2,325 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="524b79f4-7375-4cbe-bb66-9dec564c9264" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/config/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/features_X.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/features_X.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/features_Y.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/features_Y.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/images_info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/images_info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00091.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00091.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00092.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00092.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00093.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00093.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00094.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00094.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00095.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00095.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00096.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00096.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00097.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00097.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00098.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00098.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00099.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00099.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00100.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00100.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00101.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00101.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00102.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00102.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00103.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00103.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00104.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00104.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00105.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00105.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00106.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00106.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00107.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00107.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00108.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00108.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00109.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00109.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00110.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00110.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00111.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00111.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00112.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00112.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00113.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00113.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00114.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00114.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00115.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00115.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00116.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00116.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00117.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00117.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00118.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00118.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00119.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00119.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00120.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00120.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00121.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00121.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00122.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00122.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00123.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00123.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00124.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00124.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00125.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00125.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00126.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00126.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00127.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00127.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00128.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00128.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00129.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00129.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00130.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00130.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00131.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00131.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00132.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00132.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00133.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00133.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00134.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00134.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00135.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00135.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00136.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00136.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00137.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00137.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00138.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00138.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00139.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00139.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00140.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00140.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00141.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00141.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00142.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00142.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00143.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00143.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00144.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00144.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00145.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00145.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00146.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00146.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00147.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00147.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00148.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00148.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00149.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00149.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00150.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00150.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00151.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00151.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00152.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00152.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00153.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00153.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00154.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00154.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00155.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00155.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00156.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00156.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00157.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00157.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00158.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00158.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00159.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00159.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00160.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00160.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00161.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00161.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00162.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00162.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00163.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00163.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00164.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00164.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00165.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00165.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00166.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00166.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00167.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00167.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00168.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00168.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00169.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00169.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00170.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00170.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00171.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00171.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00172.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00172.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00173.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00173.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00174.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00174.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00175.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00175.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00176.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00176.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00177.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00177.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00178.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00178.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00179.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00179.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00180.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00180.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00181.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00181.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00182.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00182.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00183.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00183.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00184.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00184.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00185.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00185.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00186.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00186.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00187.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00187.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00188.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00188.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00189.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00189.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00190.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00190.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00191.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00191.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00192.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00192.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00193.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00193.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00194.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00194.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00195.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00195.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00196.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00196.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00197.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00197.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00198.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00198.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00199.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00199.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00200.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00200.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00201.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00201.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00202.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00202.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00203.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00203.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00204.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00204.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00205.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00205.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00206.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00206.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00207.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00207.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00208.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00208.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00209.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00209.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00210.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00210.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00211.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00211.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00212.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00212.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00213.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00213.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00214.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00214.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00215.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00215.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00216.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00216.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00217.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00217.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00218.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00218.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00219.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00219.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00220.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00220.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00221.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00221.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00222.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00222.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00223.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00223.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00224.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00224.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00225.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00225.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00226.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00226.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00227.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00227.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00228.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00228.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00229.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00229.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00230.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00230.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00231.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00231.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00232.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00232.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00233.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00233.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00234.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00234.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00235.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00235.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00236.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00236.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00237.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00237.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00238.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00238.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00239.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00239.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00240.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00240.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00241.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00241.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00242.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00242.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00243.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00243.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00244.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00244.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00245.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00245.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00246.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00246.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00247.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00247.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00248.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00248.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00249.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00249.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00250.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00250.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00251.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00251.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00252.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00252.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00253.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00253.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00254.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00254.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeletons_info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeletons_info.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/model/trained_classifier.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/model/trained_classifier.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/src/s4_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/src/s4_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_skeletons_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_skeletons_io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00000.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00001.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00002.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00003.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00004.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00005.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00006.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00007.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00008.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00009.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00010.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00011.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00012.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00013.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00014.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00015.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00016.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00017.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00018.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00019.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00020.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00021.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00022.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00023.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00024.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00025.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00026.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00027.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00028.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00029.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00030.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00031.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00032.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00033.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00034.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00035.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00036.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00037.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00038.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00039.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00040.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00041.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00042.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00043.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00044.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00045.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00046.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00000.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00001.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00002.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00003.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00004.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00005.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00006.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00007.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00008.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00009.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00010.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00011.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00012.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00013.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00014.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00015.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00016.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00017.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00018.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00019.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00020.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00021.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00022.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00023.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00024.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00025.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00026.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00027.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00028.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00029.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00030.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00031.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00032.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00033.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00034.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00035.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00036.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00037.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00038.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00039.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00040.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00000.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00001.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00002.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00003.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00004.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00005.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00006.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00007.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00008.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00009.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00010.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00011.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00012.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00013.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00014.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00015.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00016.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00017.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00018.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00019.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00020.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00021.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00022.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00023.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00024.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00025.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00026.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00027.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00028.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00029.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00030.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00031.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00032.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00033.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00034.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00035.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00036.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00037.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00038.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00039.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00040.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00041.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00042.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00043.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00044.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00045.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00046.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00047.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00048.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00049.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00050.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00051.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00052.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-44-44-117/skeletons/00053.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-52-17-390/skeletons/00000.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-52-17-390/skeletons/00001.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-15-52-17-390/skeletons/00002.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_feature_proc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_feature_proc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf-pose-estimation" beforeDir="false" afterPath="$PROJECT_DIR$/tf-pose-estimation" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tf-pose-estimation/images/cat.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tf-pose-estimation/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf-pose-estimation/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tf-pose-estimation/tf_pose/estimator.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf-pose-estimation/tf_pose/estimator.py" afterDir="false" />
@@ -21,34 +335,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/s3_preprocess_features.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/config/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-188">
-              <caret line="50" column="10" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/doc/joints_order.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data/source_images3/valid_image_set2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_classifier.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-858">
-              <caret line="129" column="48" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="48" />
+            <state relative-caret-position="460">
+              <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -56,30 +356,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/s5_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-640">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="2100">
+              <caret line="107" column="68" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="68" />
+              <folding>
+                <element signature="e#955#973#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs/tf-pose-estimation/run_webcam.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_images_io.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1080">
+            <state relative-caret-position="-4781">
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#406#415#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/s4_train.py">
+        <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_skeletons_io.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+            <state relative-caret-position="2380">
+              <caret line="124" column="26" selection-start-line="124" selection-start-column="12" selection-end-line="124" selection-end-column="26" />
               <folding>
-                <element signature="e#166#184#0" expanded="true" />
+                <element signature="e#327#345#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,7 +396,6 @@
       <find>path</find>
       <find>SRC_IMAGES_FOLDER</find>
       <find>image</find>
-      <find>model</find>
       <find>image_filename_format</find>
       <find>images_folder</find>
       <find>labels</find>
@@ -102,6 +404,13 @@
       <find>classes</find>
       <find>processed_features</find>
       <find>model_</find>
+      <find>model</find>
+      <find>p2</find>
+      <find>p1:</find>
+      <find>p1</find>
+      <find>p</find>
+      <find>valid_imgs_txt</find>
+      <find>images_description_txt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,12 +425,13 @@
         <option value="$PROJECT_DIR$/Realtime-Action-Recognition/config/configTest.yaml" />
         <option value="$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_skeletons_io.py" />
         <option value="$PROJECT_DIR$/Realtime-Action-Recognition/data/source_images3/valid_image_set2.txt" />
-        <option value="$PROJECT_DIR$/Realtime-Action-Recognition/config/config.yaml" />
         <option value="$PROJECT_DIR$/Realtime-Action-Recognition/src/s4_train.py" />
+        <option value="$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_feature_proc.py" />
+        <option value="$PROJECT_DIR$/Realtime-Action-Recognition/config/config.yaml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1370" />
@@ -149,31 +459,45 @@
               <item name="Multiperson real time action recognition-human skeleton" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multiperson real time action recognition-human skeleton" type="462c0819:PsiDirectoryNode" />
               <item name="Realtime-Action-Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multiperson real time action recognition-human skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multiperson real time action recognition-human skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="Realtime-Action-Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="source_images5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multiperson real time action recognition-human skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multiperson real time action recognition-human skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="Realtime-Action-Recognition" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Multiperson real time action recognition-human skeleton" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multiperson real time action recognition-human skeleton" type="462c0819:PsiDirectoryNode" />
               <item name="Realtime-Action-Recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multiperson real time action recognition-human skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multiperson real time action recognition-human skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="Realtime-Action-Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="walking_couple.mp4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Multiperson real time action recognition-human skeleton" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multiperson real time action recognition-human skeleton" type="462c0819:PsiDirectoryNode" />
               <item name="Realtime-Action-Recognition" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="githubs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Multiperson real time action recognition-human skeleton" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multiperson real time action recognition-human skeleton" type="462c0819:PsiDirectoryNode" />
               <item name="Realtime-Action-Recognition" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Multiperson real time action recognition-human skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Multiperson real time action recognition-human skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="tf-pose-estimation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,8 +507,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Video identification/record_images_from_usbcam" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -254,18 +579,22 @@
       <workItem from="1587287034189" duration="748000" />
       <workItem from="1587288648850" duration="12027000" />
       <workItem from="1587353775205" duration="7083000" />
-      <workItem from="1587365914333" duration="5261000" />
+      <workItem from="1587365914333" duration="11311000" />
+      <workItem from="1587397032854" duration="4446000" />
+      <workItem from="1587439529747" duration="1905000" />
+      <workItem from="1587531000220" duration="5971000" />
+      <workItem from="1587621856592" duration="4648000" />
+      <workItem from="1587699246513" duration="380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29783000" />
+    <option name="totallyTimeSpent" value="53183000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30786687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -279,7 +608,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -322,74 +651,6 @@
     <SUITE FILE_PATH="coverage/Multiperson_real_time_action_recognition_human_skeleton$s1_get_skeletons_from_training_imgs.coverage" NAME="s1_get_skeletons_from_training_imgs Coverage Results" MODIFIED="1587289098702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Realtime-Action-Recognition/src" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tf-pose-estimation/run_checkpoint.py" />
-    <entry file="file://$PROJECT_DIR$/tf-pose-estimation/run_directory.py" />
-    <entry file="file://$PROJECT_DIR$/tf-pose-estimation/tf_pose/estimator.py" />
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01005.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01006.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01008.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01011.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs/tf-pose-estimation/images/p2.jpg" />
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs/tf-pose-estimation/images/p3.jpg" />
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs/tf-pose-estimation/run_directory.py" />
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs/utils/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/tf-pose-estimation/images/p2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tf-pose-estimation/images/hand2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/s2_put_skeleton_txts_to_a_single_txt.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/config/configTest.yaml" />
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/tf-pose-estimation/msg/Person.msg" />
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_openpose.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/s1_get_skeletons_from_training_imgs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
-          <folding>
-            <element signature="e#738#748#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tf-pose-estimation/run_webcam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1075">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data/source_images3/valid_images.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tf-pose-estimation/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1201">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs/tf-pose-estimation/msg/Person.msg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-480" />
@@ -413,25 +674,6 @@
     <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_proc/raw_skeletons/skeleton_res/00012.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_skeletons_io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-          <folding>
-            <element signature="e#327#345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/s3_preprocess_features.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/model/trained_classifier.pickle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01030.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01027.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -446,21 +688,19 @@
     <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/doc/joints_order.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs/tf-pose-estimation/run_webcam.py">
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00040.txt" />
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00039.txt" />
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00020.txt" />
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00018.txt" />
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00003.txt" />
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-18-18-898/skeletons/00000.txt" />
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/output/04-20-14-11-20-433/skeletons/00019.txt" />
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080">
+        <state relative-caret-position="20">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/s4_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
-          <folding>
-            <element signature="e#166#184#0" expanded="true" />
+            <element signature="e#478#496#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -472,24 +712,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/s5_test.py">
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs/tf-pose-estimation/run_checkpoint.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-640">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="-855">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_classifier.py">
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs/tf-pose-estimation/run_directory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-858">
-          <caret line="129" column="48" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="48" />
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs/tf-pose-estimation/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-701">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs/tf-pose-estimation/run_webcam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs/tf-pose-estimation/msg/Person.msg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs/tf-pose-estimation/msg/Persons.msg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs/tf-pose-estimation/scripts/visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1461" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/githubs/tf-pose-estimation/scripts/broadcaster_ros.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1440" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/s4_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+          <folding>
+            <element signature="e#166#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/tools/an_example_skeleton_of_standing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01034.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01008.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/output/going_foward/skeletons/00002.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="64" selection-start-column="64" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/output/going_foward/skeletons/00001.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/s1_get_skeletons_from_training_imgs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="7" />
+          <folding>
+            <element signature="e#738#748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_feature_proc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="61" />
+          <folding>
+            <element signature="e#312#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/model/trained_classifier.pickle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2060" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/output/exercise/skeletons/00004.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/s2_put_skeleton_txts_to_a_single_txt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01030.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01035.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01038.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01039.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01010.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01007.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01049.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/data_test/apple/01053.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/s3_preprocess_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/config/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-188">
-          <caret line="50" column="10" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="10" />
+        <state relative-caret-position="460">
+          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/src/s5_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="107" column="68" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="68" />
+          <folding>
+            <element signature="e#955#973#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_skeletons_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="124" column="26" selection-start-line="124" selection-start-column="12" selection-end-line="124" selection-end-column="26" />
+          <folding>
+            <element signature="e#327#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Realtime-Action-Recognition/utils/lib_images_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4781">
+          <folding>
+            <element signature="e#406#415#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
